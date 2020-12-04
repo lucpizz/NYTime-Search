@@ -13,8 +13,10 @@ function displayArticleSearch() {
     url: queryURL,
     method: "GET",
   }).then(function (response) {
-    var articleDiv = $("<div class='articleSearchResult'>");
-
-    $("");
+    //  var articleDiv = $("<div class='articleSearchResult'>");
+    console.log(response);
+    //  $("");
   });
 }
+
+displayArticleSearch();
